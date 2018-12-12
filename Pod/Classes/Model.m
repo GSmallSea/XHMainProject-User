@@ -10,4 +10,13 @@
 
 @implementation Model
 
+- (int)getHeight{
+    
+    return 100;
+}
+
+- (int)getWidth{
+    
+    return 30;
+}
 @end
