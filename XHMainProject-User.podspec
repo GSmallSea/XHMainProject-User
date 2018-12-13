@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "XHMainProject-User"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "XHMainProject"
   spec.description  = "XHMainProject第一个" 
   spec.homepage     = "https://github.com/GSmallSea/XHMainProject-User.git"
@@ -15,5 +15,6 @@ Pod::Spec.new do |spec|
  
   spec.source_files  =  "Pod/Classes", "Pod/Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
+  spec.dependency 'MJExtension','~> 3.0'
 
 end
