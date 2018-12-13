@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (int)getWidth;
 
+- (NSString *)getModel;
 
 @end
 

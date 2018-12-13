@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "XHMainProject-User"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "XHMainProject"
   spec.description  = "XHMainProject第一个" 
   spec.homepage     = "https://github.com/GSmallSea/XHMainProject-User.git"
