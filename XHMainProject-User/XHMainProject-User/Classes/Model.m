@@ -7,7 +7,8 @@
 //
 
 #import "Model.h"
-
+#import <MJExtension/MJExtension.h>
+#import <UIKit/UIKit.h>
 @implementation Model
 
 - (int)getHeight{
@@ -19,4 +20,8 @@
     
     return 30;
 }
+- (NSString *)getModel{
+    return [Model mj_JSONString];
+}
+
 @end
