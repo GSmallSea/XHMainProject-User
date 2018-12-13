@@ -17,6 +17,8 @@
 		F71E82BC21C109870049CECF /* XHMainProject_UserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F71E82BB21C109870049CECF /* XHMainProject_UserUITests.m */; };
 		F71E82CD21C10B180049CECF /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F71E82CC21C10B180049CECF /* ViewModel.m */; };
 		F71E82D021C10B260049CECF /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F71E82CF21C10B260049CECF /* Model.m */; };
+		F71E82D621C2332F0049CECF /* Target_User.m in Sources */ = {isa = PBXBuildFile; fileRef = F71E82D521C2332F0049CECF /* Target_User.m */; };
+		F71E82D921C2339D0049CECF /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71E82D821C2339D0049CECF /* BViewController.m */; };
 		F843FCFDA68E022A50CCB810 /* libPods-XHMainProject-User.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E92DC2FA0EAD6EF5FC209D76 /* libPods-XHMainProject-User.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +63,10 @@
 		F71E82CC21C10B180049CECF /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
 		F71E82CE21C10B260049CECF /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		F71E82CF21C10B260049CECF /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		F71E82D421C2332F0049CECF /* Target_User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_User.h; sourceTree = "<group>"; };
+		F71E82D521C2332F0049CECF /* Target_User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_User.m; sourceTree = "<group>"; };
+		F71E82D721C2339D0049CECF /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		F71E82D821C2339D0049CECF /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,10 @@
 				F71E82CC21C10B180049CECF /* ViewModel.m */,
 				F71E82CE21C10B260049CECF /* Model.h */,
 				F71E82CF21C10B260049CECF /* Model.m */,
+				F71E82D421C2332F0049CECF /* Target_User.h */,
+				F71E82D521C2332F0049CECF /* Target_User.m */,
+				F71E82D721C2339D0049CECF /* BViewController.h */,
+				F71E82D821C2339D0049CECF /* BViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -330,9 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71E82D621C2332F0049CECF /* Target_User.m in Sources */,
 				F71E829C21C109870049CECF /* ViewController.m in Sources */,
 				F71E82A721C109870049CECF /* main.m in Sources */,
 				F71E82CD21C10B180049CECF /* ViewModel.m in Sources */,
+				F71E82D921C2339D0049CECF /* BViewController.m in Sources */,
 				F71E829921C109870049CECF /* AppDelegate.m in Sources */,
 				F71E82D021C10B260049CECF /* Model.m in Sources */,
 			);
