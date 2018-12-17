@@ -20,6 +20,7 @@
 		F71E82D621C2332F0049CECF /* Target_User.m in Sources */ = {isa = PBXBuildFile; fileRef = F71E82D521C2332F0049CECF /* Target_User.m */; };
 		F71E82D921C2339D0049CECF /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71E82D821C2339D0049CECF /* BViewController.m */; };
 		F7DFA3D721C77B12001D2B0E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DFA3D621C77B12001D2B0E /* MainViewController.m */; };
+		F7DFA3D921C77DF9001D2B0E /* Mian.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DFA3D821C77DF9001D2B0E /* Mian.xcassets */; };
 		F843FCFDA68E022A50CCB810 /* libPods-XHMainProject-User.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E92DC2FA0EAD6EF5FC209D76 /* libPods-XHMainProject-User.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		F71E82D821C2339D0049CECF /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		F7DFA3D521C77B12001D2B0E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		F7DFA3D621C77B12001D2B0E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F7DFA3D821C77DF9001D2B0E /* Mian.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Mian.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 		F7DFA3D421C77B05001D2B0E /* Mian */ = {
 			isa = PBXGroup;
 			children = (
+				F7DFA3D821C77DF9001D2B0E /* Mian.xcassets */,
 				F7DFA3D521C77B12001D2B0E /* MainViewController.h */,
 				F7DFA3D621C77B12001D2B0E /* MainViewController.m */,
 			);
@@ -303,6 +306,7 @@
 			files = (
 				F71E82A421C109870049CECF /* LaunchScreen.storyboard in Resources */,
 				F71E82A121C109870049CECF /* Assets.xcassets in Resources */,
+				F7DFA3D921C77DF9001D2B0E /* Mian.xcassets in Resources */,
 				F71E829F21C109870049CECF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
