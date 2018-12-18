@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "XHMainProject-User"
-  spec.version      = "0.0.9"
+  spec.version      = "0.0.11"
   spec.summary      = "XHMainProject"
   spec.description  = "XHMainProject第一个" 
   spec.homepage     = "https://github.com/GSmallSea/XHMainProject-User.git"
@@ -13,9 +13,10 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/GSmallSea/XHMainProject-User.git", :tag => "#{spec.version}" }
  
-  spec.source_files  =  "Pod/Classes", "Pod/Classes/**/*.{h,m}"
+  spec.source_files  =  "Pod/Classes", "Pod/Classes/**/*"
+
   spec.resource_bundles = {
-     'Pod' => ['Pod/Classes/Mian/Assets/*']
+     'Pod' => ['Pod/Classes/Mian/*']
   }
 
   spec.exclude_files = "Classes/Exclude"
