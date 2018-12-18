@@ -13,7 +13,12 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/GSmallSea/XHMainProject-User.git", :tag => "#{spec.version}" }
  
-  spec.source_files  =  "Pod/Classes", "Pod/Classes/**/*"
+  spec.source_files  =  "Pod/Classes", "Pod/Classes/**/*.{h,m}"
+
+ 
+  spec.subspec 'Mian' do |ss|
+      ss.source_files = 'Pod/Classes/Mian/**/*.{h,m}'
+  end
 
   spec.resource_bundles = {
      'Pod' => ['Pod/Classes/Mian/*']
